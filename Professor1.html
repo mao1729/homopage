@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .mouse-stalker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1px;
+    height: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+  }
+  
+  .mouse-stalker > div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    flex-shrink: 0;
+  }
+
+/* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
+  .header-nav1 {
+    background-color: #f9fafb;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    left: 31.944vw;
+    align-items: center;
+  }
+
+  .header-nav2 {
+    z-index: 99;
+    background-color: #f9fafb;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    left: 10.417vw;
+    align-items: center;
+  }
+
+  .header-nav3 {
+    z-index: 99;
+    background-color: #f9fafb;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    left: 0vw;
+  }
+
+  .logo {
+    display: flex;
+    position: fixed;
+    width: 4.792vw;
+    left: 5vw;
+  }
+
+  nav {
+    margin-right: 5%;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+
+  .QyuuuM {
+    color: rgb(0, 153, 255);
+  }
+
+  .QyuuuM:hover {
+    color: rgb(243, 0, 0);
+  }
+/* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
+
+  .left-block {
+    z-index: 100;
+    background-color: #ffffff;
+    position: fixed;
+    width: 2.083vw;
+    height: 100vh;
+    left: 0px;
+  }
+
+  .right-block {
+    z-index: 100;
+    background-color: #ffffff;
+    position: fixed;
+    width: 4.028vw;
+    height: 100vh;
+    right: 0vw;
+  }
+
+  .SNS-image-twitter {
+    display: flex;
+    position: fixed;
+    width: 2.431vw;
+    right: 0.764vw;
+    top: 119px;
+  }
+
+  .SNS-image-facebook {
+    display: flex;
+    position: fixed;
+    width: 2.569vw;
+    right: 0.764vw;
+    top: 182px;
+  }
+
+  .SNS-image-instagram {
+    display: flex;
+    position: fixed;
+    width: 2.431vw;
+    right: 0.764vw;
+    top: 253px;
+  }
+
+.First {
+    display: flex;
+    background-color: #fff;
+}
+
+.Professor {
+    position: absolute;
+    display: flex;
+    color: black;
+    left: 4.257vw;
+    top: 260px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 2px;
+    transform: rotate(90deg);
+}
+
+.Pro-img1 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 16.917vw;
+    top: 125px;
+}
+
+.Pro-name1 {
+    position: absolute;
+    display: flex;
+    left: 16.917vw;
+    top: 328px;
+}
+
+.Pro-img2 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 34.583vw;
+    top: 125px;
+}
+
+.Pro-name2 {
+    position: absolute;
+    display: flex;
+    left: 34.583vw;
+    top: 328px;
+}
+
+.Pro-img3 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 52.25vw;
+    top: 125px;
+}
+
+.Pro-name3 {
+    position: absolute;
+    display: flex;
+    left: 52.25vw;
+    top: 328px;
+}
+
+.Pro-img4 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 69.917vw;
+    top: 125px;
+}
+
+.Pro-name4 {
+    position: absolute;
+    display: flex;
+    left: 69.917vw;
+    top: 328px;
+}
+
+.Pro-img12 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 16.917vw;
+    top: 416px;
+}
+
+.Pro-name12 {
+    position: absolute;
+    display: flex;
+    left: 16.917vw;
+    top: 619px;
+}
+
+.Pro-img22 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 34.583vw;
+    top: 416px;
+}
+
+.Pro-name22 {
+    position: absolute;
+    display: flex;
+    left: 34.583vw;
+    top: 619px;
+}
+
+.Pro-img32 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 52.25vw;
+    top: 416px;
+}
+
+.Pro-name32 {
+    position: absolute;
+    display: flex;
+    left: 52.25vw;
+    top: 619px;
+}
+
+.Pro-img42 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 69.917vw;
+    top: 416px;
+}
+
+.Pro-name42 {
+    position: absolute;
+    display: flex;
+    left: 69.917vw;
+    top: 619px;
+}
+
+.Pro-img13 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 16.917vw;
+    top: 707px;
+}
+
+.Pro-name13 {
+    position: absolute;
+    display: flex;
+    left: 16.917vw;
+    top: 910px;
+}
+
+.Pro-img23 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 34.583vw;
+    top: 707px;
+}
+
+.Pro-name23 {
+    position: absolute;
+    display: flex;
+    left: 34.583vw;
+    top: 910px;
+}
+
+.Pro-img33 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 52.25vw;
+    top: 707px;
+}
+
+.Pro-name33 {
+    position: absolute;
+    display: flex;
+    left: 52.25vw;
+    top: 910px;
+}
+
+.Pro-img43 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 69.917vw;
+    top: 707px;
+}
+
+.Pro-name43 {
+    position: absolute;
+    display: flex;
+    left: 69.917vw;
+    top: 910px;
+}
+
+.Pro-img14 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 16.917vw;
+    top: 998px;
+}
+
+.Pro-name14 {
+    position: absolute;
+    display: flex;
+    left: 16.917vw;
+    top: 1201px;
+}
+
+.Pro-img24 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 34.583vw;
+    top: 998px;
+}
+
+.Pro-name24 {
+    position: absolute;
+    display: flex;
+    left: 34.583vw;
+    top: 1201px;
+}
+
+.Pro-img34 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 52.25vw;
+    top: 998px;
+}
+
+.Pro-name34 {
+    position: absolute;
+    display: flex;
+    left: 52.25vw;
+    top: 1201px;
+}
+
+.Pro-img44 {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    width: 15vw;
+    left: 69.917vw;
+    top: 998px;
+}
+
+.Pro-name44 {
+    position: absolute;
+    display: flex;
+    left: 69.917vw;
+    top: 1201px;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 247px;
+  }
+
+  .SNS-sharemark {
+    display: flex;
+    position: absolute;   
+    width: 2.639vw;
+    left: 40.056vw;
+    top: 1335px;
+  }
+
+  .sns-share-word {
+    display: flex;
+    position: absolute;  
+    color: rgb(0, 0, 0);
+    left: 46.458vw;
+    top: 1329px;
+  }
+  .SNS-image-twitter2 {
+    display: flex;
+    position: absolute;   
+    width: 3.472vw;
+    left: 42.083vw;
+    top: 1402px;
+  }
+
+  .SNS-image-facebook2 {
+    display: flex;
+    position: absolute;
+    width: 3.889vw;
+    left: 48.056vw;
+    top: 1394px;
+  }
+
+  .SNS-image-instagram2 {
+    display: flex;
+    position: absolute;
+    width: 3.889vw;
+    left: 54.444vw;
+    top: 1396px;
+  }
