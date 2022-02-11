@@ -1,449 +1,202 @@
-* {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-  }
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title>QyuuuM</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/Professor1.css">
 
-  .mouse-stalker {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 1px;
-    height: 1px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    pointer-events: none;
-    mix-blend-mode: exclusion;
-  }
-  
-  .mouse-stalker > div {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #fff;
-    flex-shrink: 0;
-  }
+    <script type="text/javascript" src="javascript/main.js"></script>
+    </head>
+    <body>
 
-/* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
-  .header-nav1 {
-    background-color: #f9fafb;
-    position: fixed;
-    z-index: 99;
-    display: flex;
-    width: 100vw;
-    height: 10vh;
-    flex-direction: row;
-    left: 31.944vw;
-    align-items: center;
-  }
+    <div class="mouse-stalker">
+    <div></div>
+    </div>
 
-  .header-nav2 {
-    z-index: 99;
-    background-color: #f9fafb;
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    left: 10.417vw;
-    align-items: center;
-  }
+    <header class="header-nav3">
+        <image src="images/ロゴ１.png" class="logo"></image>
+    </header>
 
-  .header-nav3 {
-    z-index: 99;
-    background-color: #f9fafb;
-    position: fixed;
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    left: 0vw;
-  }
+    <header class="header-nav2">
+        <nav><h1 class="QyuuuM">QyuuuM</h1></nav>
+    </header>
 
-  .logo {
-    display: flex;
-    position: fixed;
-    width: 4.792vw;
-    left: 5vw;
-  }
+    <header class="header-nav1">
+        <nav><a href="top.html">Top</a></nav>
+        <nav><a href="News.html">News</a></nav>
+        <nav><a href="Professor1.html">Professor</a></nav>
+        <nav><a href="Labo.html">Laboratory</a></nav>
+        <nav><a href="Place.html">Place</a></nav>
+        <nav><a href="My.html">MyPage</a></nav>
+    </header>
 
-  nav {
-    margin-right: 5%;
-  }
-  
-  a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: rgb(255, 0, 0);
-  }
+    <div class="left-block">
+        <nav></nav>
+    </div>
 
-  .QyuuuM {
-    color: rgb(0, 153, 255);
-  }
+    <div class="right-block">
+        <div class="SNS">
+        <a href="https://mobile.twitter.com/i/flow/login"><image src="images/2021 Twitter logo - black.png" class="SNS-image-twitter"></image></a>
+        <a href="https://ja-jp.facebook.com/login"><image src="images/f_logo_RGB-Black_1024.png" class="SNS-image-facebook"></image></a>
+        <a href="https://www.instagram.com/?hl=ja"><image src="images/glyph-logo_May2016.png" class="SNS-image-instagram"></image></a>
+        </div>
+    </div>
 
-  .QyuuuM:hover {
-    color: rgb(243, 0, 0);
-  }
-/* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
+    <div class="First">
+        <h1 class="Professor">Professor</h1>
+            <div class="Pro1">
+                <div class="Pro-img1">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name1">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-  .left-block {
-    z-index: 100;
-    background-color: #ffffff;
-    position: fixed;
-    width: 2.083vw;
-    height: 100vh;
-    left: 0px;
-  }
+            <div class="Pro2">
+                <div class="Pro-img2">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name2">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-  .right-block {
-    z-index: 100;
-    background-color: #ffffff;
-    position: fixed;
-    width: 4.028vw;
-    height: 100vh;
-    right: 0vw;
-  }
+            <div class="Pro3">
+                <div class="Pro-img3">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name3">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-  .SNS-image-twitter {
-    display: flex;
-    position: fixed;
-    width: 2.431vw;
-    right: 0.764vw;
-    top: 119px;
-  }
+            <div class="Pro4">
+                <div class="Pro-img4">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name4">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-  .SNS-image-facebook {
-    display: flex;
-    position: fixed;
-    width: 2.569vw;
-    right: 0.764vw;
-    top: 182px;
-  }
+            <div class="Pro12">
+                <div class="Pro-img12">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name12">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-  .SNS-image-instagram {
-    display: flex;
-    position: fixed;
-    width: 2.431vw;
-    right: 0.764vw;
-    top: 253px;
-  }
+            <div class="Pro22">
+                <div class="Pro-img22">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name22">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.First {
-    display: flex;
-    background-color: #fff;
-}
+            <div class="Pro32">
+                <div class="Pro-img32">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name32">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Professor {
-    position: absolute;
-    display: flex;
-    color: black;
-    left: 4.257vw;
-    top: 260px;
-    text-decoration: none;
-    border-bottom: 2px solid rgb(0, 0, 0);
-    padding-bottom: 2px;
-    transform: rotate(90deg);
-}
+            <div class="Pro42">
+                <div class="Pro-img42">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name42">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-img1 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 16.917vw;
-    top: 125px;
-}
+            <div class="Pro13">
+                <div class="Pro-img13">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name13">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-name1 {
-    position: absolute;
-    display: flex;
-    left: 16.917vw;
-    top: 328px;
-}
+            <div class="Pro23">
+                <div class="Pro-img23">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name23">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-img2 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 34.583vw;
-    top: 125px;
-}
+            <div class="Pro33">
+                <div class="Pro-img33">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name33">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-name2 {
-    position: absolute;
-    display: flex;
-    left: 34.583vw;
-    top: 328px;
-}
+            <div class="Pro43">
+                <div class="Pro-img43">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name43">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-img3 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 52.25vw;
-    top: 125px;
-}
+            <div class="Pro14">
+                <div class="Pro-img14">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name14">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-name3 {
-    position: absolute;
-    display: flex;
-    left: 52.25vw;
-    top: 328px;
-}
+            <div class="Pro24">
+                <div class="Pro-img24">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name24">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-img4 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 69.917vw;
-    top: 125px;
-}
+            <div class="Pro34">
+                <div class="Pro-img34">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name34">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
 
-.Pro-name4 {
-    position: absolute;
-    display: flex;
-    left: 69.917vw;
-    top: 328px;
-}
-
-.Pro-img12 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 16.917vw;
-    top: 416px;
-}
-
-.Pro-name12 {
-    position: absolute;
-    display: flex;
-    left: 16.917vw;
-    top: 619px;
-}
-
-.Pro-img22 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 34.583vw;
-    top: 416px;
-}
-
-.Pro-name22 {
-    position: absolute;
-    display: flex;
-    left: 34.583vw;
-    top: 619px;
-}
-
-.Pro-img32 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 52.25vw;
-    top: 416px;
-}
-
-.Pro-name32 {
-    position: absolute;
-    display: flex;
-    left: 52.25vw;
-    top: 619px;
-}
-
-.Pro-img42 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 69.917vw;
-    top: 416px;
-}
-
-.Pro-name42 {
-    position: absolute;
-    display: flex;
-    left: 69.917vw;
-    top: 619px;
-}
-
-.Pro-img13 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 16.917vw;
-    top: 707px;
-}
-
-.Pro-name13 {
-    position: absolute;
-    display: flex;
-    left: 16.917vw;
-    top: 910px;
-}
-
-.Pro-img23 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 34.583vw;
-    top: 707px;
-}
-
-.Pro-name23 {
-    position: absolute;
-    display: flex;
-    left: 34.583vw;
-    top: 910px;
-}
-
-.Pro-img33 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 52.25vw;
-    top: 707px;
-}
-
-.Pro-name33 {
-    position: absolute;
-    display: flex;
-    left: 52.25vw;
-    top: 910px;
-}
-
-.Pro-img43 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 69.917vw;
-    top: 707px;
-}
-
-.Pro-name43 {
-    position: absolute;
-    display: flex;
-    left: 69.917vw;
-    top: 910px;
-}
-
-.Pro-img14 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 16.917vw;
-    top: 998px;
-}
-
-.Pro-name14 {
-    position: absolute;
-    display: flex;
-    left: 16.917vw;
-    top: 1201px;
-}
-
-.Pro-img24 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 34.583vw;
-    top: 998px;
-}
-
-.Pro-name24 {
-    position: absolute;
-    display: flex;
-    left: 34.583vw;
-    top: 1201px;
-}
-
-.Pro-img34 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 52.25vw;
-    top: 998px;
-}
-
-.Pro-name34 {
-    position: absolute;
-    display: flex;
-    left: 52.25vw;
-    top: 1201px;
-}
-
-.Pro-img44 {
-    margin: 0;
-    position: absolute;
-    display: flex;
-    width: 15vw;
-    left: 69.917vw;
-    top: 998px;
-}
-
-.Pro-name44 {
-    position: absolute;
-    display: flex;
-    left: 69.917vw;
-    top: 1201px;
-}
-
-footer{
-    background-color: rgb(255, 255, 255);
-    height: 247px;
-  }
-
-  .SNS-sharemark {
-    display: flex;
-    position: absolute;   
-    width: 2.639vw;
-    left: 40.056vw;
-    top: 1335px;
-  }
-
-  .sns-share-word {
-    display: flex;
-    position: absolute;  
-    color: rgb(0, 0, 0);
-    left: 46.458vw;
-    top: 1329px;
-  }
-  .SNS-image-twitter2 {
-    display: flex;
-    position: absolute;   
-    width: 3.472vw;
-    left: 42.083vw;
-    top: 1402px;
-  }
-
-  .SNS-image-facebook2 {
-    display: flex;
-    position: absolute;
-    width: 3.889vw;
-    left: 48.056vw;
-    top: 1394px;
-  }
-
-  .SNS-image-instagram2 {
-    display: flex;
-    position: absolute;
-    width: 3.889vw;
-    left: 54.444vw;
-    top: 1396px;
-  }
+            <div class="Pro44">
+                <div class="Pro-img44">
+                    <a href="Professor2.html"><img src="images/professor.jpg"></a>
+                </div>
+                <div class="Pro-name44">
+                    <h4><a href="Professor2.html">赤時僚伽</a></h4>
+                </div>
+            </div>
+            <div class="sns-share">
+                <h1 class="sns-share-word">SNS Share</h1>
+                <image src="images/シェアマーク.png" class="SNS-sharemark"></image>
+                <a href="https://mobile.twitter.com/i/flow/login"><image src="images/2021 Twitter logo - black.png" class="SNS-image-twitter2"></image></a>
+                <a href="https://ja-jp.facebook.com/login"><image src="images/f_logo_RGB-Black_1024.png" class="SNS-image-facebook2"></image></a>
+                <a href="https://www.instagram.com/?hl=ja"><image src="images/glyph-logo_May2016.png" class="SNS-image-instagram2"></image></a>
+            </div>
+            
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
