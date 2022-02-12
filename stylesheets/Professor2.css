@@ -26,6 +26,10 @@
     flex-shrink: 0;
 }
 
+body {
+    font-family: cursive;
+}
+
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
 .header-nav1 {
     background-color: #f9fafb;
@@ -71,21 +75,28 @@ nav {
     margin-right: 5%;
 }
 
-a {
+.red {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.black {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-a:hover {
+.black:hover {
     color: rgb(255, 0, 0);
 }
 
 .QyuuuM {
     color: rgb(0, 153, 255);
+    text-decoration: none;
 }
 
 .QyuuuM:hover {
     color: rgb(243, 0, 0);
+    text-decoration: none;
 }
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
 
@@ -131,6 +142,12 @@ a:hover {
     top: 253px;
 }
 
+.First {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
 .Professor {
     position: absolute;
     display: flex;
@@ -187,44 +204,44 @@ a:hover {
 
 footer{
     background-color: rgb(255, 255, 255);
-    height: 247px;
-  }
+    height: 900px;
+}
 
-  .SNS-sharemark {
+.SNS-sharemark {
     display: flex;
     position: absolute;   
     width: 2.639vw;
     left: 40.056vw;
     top: 735px;
-  }
+}
 
-  .sns-share-word {
+.sns-share-word {
     display: flex;
     position: absolute;  
     color: rgb(0, 0, 0);
     left: 46.458vw;
     top: 729px;
-  }
-  .SNS-image-twitter2 {
+}
+.SNS-image-twitter2 {
     display: flex;
     position: absolute;   
     width: 3.472vw;
     left: 42.083vw;
     top: 802px;
-  }
+}
 
-  .SNS-image-facebook2 {
+.SNS-image-facebook2 {
     display: flex;
     position: absolute;
     width: 3.889vw;
     left: 48.056vw;
     top: 794px;
-  }
+}
 
-  .SNS-image-instagram2 {
+.SNS-image-instagram2 {
     display: flex;
     position: absolute;
     width: 3.889vw;
     left: 54.444vw;
     top: 796px;
-  }
+}
