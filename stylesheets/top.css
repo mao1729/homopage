@@ -8,8 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1px;
-    height: 1px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -24,6 +24,10 @@
     border-radius: 50%;
     background: #fff;
     flex-shrink: 0;
+  }
+
+  body {
+    font-family: cursive;
   }
 
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
@@ -71,21 +75,28 @@
     margin-right: 5%;
   }
   
-  a {
+  .red {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+  }
+  
+  .black {
     color: rgb(0, 0, 0);
     text-decoration: none;
   }
   
-  a:hover {
+  .black:hover {
     color: rgb(255, 0, 0);
   }
 
   .QyuuuM {
     color: rgb(0, 153, 255);
+    text-decoration: none;
   }
 
   .QyuuuM:hover {
     color: rgb(243, 0, 0);
+    text-decoration: none;
   }
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
 
@@ -155,7 +166,7 @@
 
   .year {
     position: absolute;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.815);
     left: 3.958vw;
     top: 130px;
   }
@@ -167,7 +178,7 @@
     top: 172px;
     left: 3.958vw;
     z-index: 80;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.781);
   }
 
   .day {
@@ -275,12 +286,14 @@
     height: 1015px;
     top: 2018px;
     right: 3vw;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.815);
   }
 
   .news1-image {
     display: flex;
-    position: absolute;  
+    position: absolute; 
+    width: 19.931vw;  
+    height: 215px;
     left: 22.361vw;
     top: 2060px;
   }
@@ -303,7 +316,9 @@
 
   .news2-image {
     display: flex;
-    position: absolute;  
+    position: absolute;
+    width: 19.931vw;  
+    height: 215px;  
     left: 45.556vw;
     top: 2098px;
   }
@@ -326,7 +341,9 @@
 
   .news3-image {
     display: flex;
-    position: absolute;  
+    position: absolute;
+    width: 19.931vw;  
+    height: 215px;
     left: 68.75vw;
     top: 2137px;
   }
