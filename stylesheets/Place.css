@@ -26,6 +26,10 @@
     flex-shrink: 0;
 }
 
+body {
+    font-family: cursive;
+}
+
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
 .header-nav1 {
     background-color: #f9fafb;
@@ -71,21 +75,28 @@ nav {
     margin-right: 5%;
 }
 
-a {
+.red {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.black {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-a:hover {
+.black:hover {
     color: rgb(255, 0, 0);
 }
 
 .QyuuuM {
     color: rgb(0, 153, 255);
+    text-decoration: none;
 }
 
 .QyuuuM:hover {
     color: rgb(243, 0, 0);
+    text-decoration: none;
 }
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
 
@@ -143,8 +154,8 @@ a:hover {
     position: absolute;
     display: flex;
     color: black;
-    left: 7.017vw;
-    top: 224px;
+    left: 6.955vw;
+    top: 225px;
     text-decoration: none;
     border-bottom: 2px solid rgb(0, 0, 0);
     padding-bottom: 2px;
