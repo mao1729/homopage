@@ -26,6 +26,10 @@
     flex-shrink: 0;
 }
 
+body {
+    font-family: cursive;
+}
+
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
 .header-nav1 {
     background-color: #f9fafb;
@@ -71,21 +75,28 @@ nav {
     margin-right: 5%;
 }
 
-a {
+.red {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.black {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-a:hover {
+.black:hover {
     color: rgb(255, 0, 0);
 }
 
 .QyuuuM {
     color: rgb(0, 153, 255);
+    text-decoration: none;
 }
 
 .QyuuuM:hover {
     color: rgb(243, 0, 0);
+    text-decoration: none;
 }
 /* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
 
@@ -135,7 +146,7 @@ a:hover {
     display: flex;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 800px;
     background-color: #fff;
 }
 
@@ -143,36 +154,84 @@ a:hover {
     position: absolute;
     display: flex;
     color: black;
-    left: 6.917vw;
-    top: 225px;
+    left: 6.837vw;
+    top: 227px;
     text-decoration: none;
     border-bottom: 2px solid rgb(0, 0, 0);
     padding-bottom: 2px;
     transform: rotate(90deg);
 }
 
-.coming {
-    display: flex;
+.News-img1 {
     position: absolute;
-    left: 20vw;
-    top: 200px;
-    color: black;
+    display: flex;
+    width: 19.931vw;
+    height: 215px;
+    left: 22.361vw;
+    top: 125px;
 }
 
-.com-img1 {
-    display: flex;
+.News-word1 {
     position: absolute;
-    width: 25vw;
-    left: 45vw;
-    top: 100px;
+    display: flex;
+    left: 22.361vw;
+    text-decoration: none;
+    top: 345px;
 }
 
-.com-img2 {
-    display: flex;
+.kuwasiku1 {
     position: absolute;
-    width: 20vw;
-    left: 73vw;
-    top: 200px;
+    display: flex;
+    left: 36vw;
+    top: 500px;
+}
+
+.News-img2 {
+    position: absolute;
+    display: flex;
+    width: 19.931vw;
+    height: 215px;
+    left: 45.556vw;
+    top: 125px;
+}
+
+.News-word2 {
+    position: absolute;
+    display: flex;
+    left: 45.556vw;
+    text-decoration: none;
+    top: 345px;
+}
+
+.kuwasiku2 {
+    position: absolute;
+    display: flex;
+    left: 59vw;
+    top: 500px;
+}
+
+.News-img3 {
+    position: absolute;
+    display: flex;
+    width: 19.931vw;
+    height: 215px;
+    left: 68.75vw;
+    top: 125px;
+}
+
+.News-word3 {
+    position: absolute;
+    display: flex;
+    left: 68.75vw;
+    text-decoration: none;
+    top: 345px;
+}
+
+.kuwasiku3 {
+    position: absolute;
+    display: flex;
+    left: 82.5vw;
+    top: 500px;
 }
 
 footer{
@@ -184,7 +243,7 @@ footer{
     position: absolute;   
     width: 2.639vw;
     left: 40.056vw;
-    top: 435px;
+    top: 635px;
 }
 
 .sns-share-word {
@@ -192,14 +251,14 @@ footer{
     position: absolute;  
     color: rgb(0, 0, 0);
     left: 46.458vw;
-    top: 429px;
+    top: 629px;
 }
 .SNS-image-twitter2 {
     display: flex;
     position: absolute;   
     width: 3.472vw;
     left: 42.083vw;
-    top: 502px;
+    top: 702px;
 }
 
 .SNS-image-facebook2 {
@@ -207,7 +266,7 @@ footer{
     position: absolute;
     width: 3.889vw;
     left: 48.056vw;
-    top: 494px;
+    top: 694px;
 }
 
 .SNS-image-instagram2 {
@@ -215,5 +274,5 @@ footer{
     position: absolute;
     width: 3.889vw;
     left: 54.444vw;
-    top: 496px;
+    top: 696px;
 }
